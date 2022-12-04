@@ -63,7 +63,7 @@ const PrizeSlider = () => {
         <div className="prizeslider">
             <Slider {...settings}>
                 {slides.map((slide, i) => (
-                    <div className="prizeslider-slide">
+                    <div className="prizeslider-slide" key={i}>
                         <Image src={slide.bg} width={600} height={500} className='prizeslider-slide-bg' />
                         <div className="prizeslider-slide-content">
                             <h3>{slide.title}</h3>

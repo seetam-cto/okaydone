@@ -47,7 +47,7 @@ const CaseStudies = () => {
                         <div className="homeslider-slide-content">
                             <h2>{slide.title}</h2>
                             <p>{slide.client}</p>
-                            <a href={slide.link} target="_blank" className="homeslider-slide-content-link">
+                            <a href={slide.link} target="_blank" rel="noreferrer" className="homeslider-slide-content-link">
                                 LEARN MORE
                             </a>
                         </div>

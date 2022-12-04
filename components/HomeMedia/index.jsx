@@ -63,7 +63,7 @@ const HomeMedia = () => {
         <div className="homemedia">
             <Slider {...settings}>
                 {slides.map((slide, i) => (
-                    <div className="homemedia-slide">
+                    <div className="homemedia-slide" key={i}>
                         <Image src={slide.bg} width={600} height={480} className='homemedia-slide-bg' />
                         <Link href="/">LEARN MORE</Link>
                     </div>

@@ -32,7 +32,7 @@ export default function Home() {
           whileInView={{x: '0%', opacity: 1}}
           exit={{x: '-100%', opacity: 0}}
           className='home-hero-title1'>
-            WE DON'T THINK <br />
+            WE DON&apos;T THINK <br />
             OUTSIDE THE BOX.
           </motion.h2>
           <motion.h2
@@ -143,7 +143,7 @@ export default function Home() {
             <Image src={bulb.src} width={150} height={250} className="home-clients-cta-img" />
             <h3>
               Have a crazy Idea? <br />
-              We'll help you <br />
+              We&apos;ll help you <br />
               make it reality!
             </h3>
             <Link href={"/"}>GET IN TOUCH</Link>
