@@ -1,0 +1,59 @@
+@use '../abstracts/' as *;
+
+.prizeslider{
+    margin-top: 5vh;
+    width: 80%;
+    .slick-arrow{
+        width: 30px;
+        height: 30px;
+        filter: brightness(1) saturate(0) contrast(2);
+        z-index: 10;
+        &.slick-next{
+            bottom: 0;
+            transform: translate(14.5vw, 14vh) rotate(180deg);
+        }
+        &.slick-prev{
+            bottom: 0;
+            transform: translate(73vw, 16vh);
+        }
+    }
+    .slick-list{
+        overflow: visible;
+    }
+    &-slide{
+        position: relative;
+        display: flex !important;
+        img{
+            object-fit: contain;
+        }
+        &-content{
+            width: 50%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            position: relative;
+            h3{
+                width: 100%;
+                text-align: left;
+                font-size: 3.5rem;
+                line-height: 3.5rem;
+                font-weight: 100 !important;
+                color: $white;
+            }
+            p{
+                width: 100%;
+                text-align: left;
+                font-size: 1.2rem;
+                line-height: 1.2rem;
+                font-weight: 400 !important;
+                color: $white;
+                font-family: $montserrat;
+            }
+        }
+        &-bg{
+            width: 45%;
+        }
+    }
+}

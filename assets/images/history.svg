@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2312.852" height="1017" viewBox="0 0 2312.852 1017">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.029" y1="-0.136" x2="1.101" y2="1.119" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#969696"/>
+      <stop offset="0.465" stop-color="#aaa"/>
+      <stop offset="0.756" stop-color="#a1a1a1"/>
+      <stop offset="1" stop-color="#969696"/>
+    </linearGradient>
+    <filter id="Path_2140" x="232.818" y="478.842" width="771.346" height="414.43" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2141" x="374.693" y="699.867" width="1104.029" height="206.592" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1.359" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8bc3b"/>
+      <stop offset="0.991" stop-color="#f6a800"/>
+    </linearGradient>
+    <filter id="Path_2142" x="1116.098" y="699.578" width="1196.756" height="207.523" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2143" x="1481.285" y="78.027" width="547.209" height="232.109" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2144" x="1245.127" y="193.938" width="631.865" height="243.318" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2145" x="0" y="78.652" width="690.291" height="122.404" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2146" x="585.291" y="78.652" width="560.678" height="120.891" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2147" x="1040.967" y="78.127" width="545.316" height="121.561" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2148" x="754.76" y="320.436" width="739.479" height="275.254" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-9"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="history" transform="translate(19397.92 -19652)">
+    <g id="Group_1714" data-name="Group 1714" transform="translate(-19299.449 19185.623)">
+      <path id="Path_2139" data-name="Path 2139" d="M1923.449,1193.6c-71.383,0-998.524.776-1388.855.184-14.963-.023-89.036-.077-103.746-2.821-59.794-11.154-63.383-35.458-32-55.467,33.241-21.194,95.313-42.77,176.639-69.12,213.331-69.119,552.037-178.925,828.582-267.943,219.5-70.658,388.849-126.927,433.917-160.854,37.972-28.585-2.135-57.6-93.439-61.865-147.412-6.889-437.7-2.076-719.783-2.987-310.521-1-846.125,2.945-1091.772,1.625V590.2c259.441-.919,732.557-2.609,1097.319-1.685,337.49.852,638.132-5.834,718.5,10.24,23.467,4.693,29.619,16.914-57.172,46.932-113.492,39.252-917.754,296.958-1347.831,437.33-57.029,17.607-97.873,35.486-127.684,52.3-130.447,73.569-5.007,143.541,146.032,154.208,94.151,5.671,349.1,5.3,627.408,5.76,412.833.681,876.3.292,933.884.724Z" transform="translate(0.002 0.045)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      <g id="Group_1713" data-name="Group 1713" transform="translate(3.45 571.904)">
+        <g id="Group_1711" data-name="Group 1711" transform="translate(158.397 400.815)">
+          <g transform="matrix(1, 0, 0, 1, -260.32, -506.34)" filter="url(#Path_2140)">
+            <path id="Path_2140-2" data-name="Path 2140" d="M334.6,946.688c-59.791-11.151-63.383-35.456-32-55.467,33.241-21.194,95.313-42.769,176.639-69.117,72.2-23.4,158.775-51.453,252.432-81.783l-144.4-11.848c-124.264,40.2-241.7,78.282-339.707,110.271-57.029,17.605-97.871,35.484-127.684,52.3C6.887,954.763,85.883,1015.777,207.2,1037.9l224.531-88.4C408.364,949.446,347.754,949.144,334.6,946.688Z" transform="translate(194.99 -222.13)" fill="#fce3ad"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -260.32, -506.34)" filter="url(#Path_2141)">
+            <path id="Path_2141-2" data-name="Path 2141" d="M1080.286,814.986c-245.559.084-506.646.1-683.981-.1-15.455-.018-30.3-.039-44.416-.059l-6.612-.01-224.531,88.4a540.688,540.688,0,0,0,58.706,7.345c20.411,1.229,48.391,2.173,82.518,2.906,123.286,2.642,326.92,2.5,544.89,2.854q27.51.046,55.291.085l257.624-101.434Z" transform="translate(281.45 -87.44)" fill="#fad27a"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -260.32, -506.34)" filter="url(#Path_2142)">
+            <path id="Path_2142-2" data-name="Path 2142" d="M668.26,814.664,410.358,916.51q49.45.057,99.192.1c463.936.42,929.392.153,992.563.538v-102.4C1457.169,814.745,1052.459,814.546,668.26,814.664Z" transform="translate(733.24 -87.55)" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+        <g id="Group_1712" data-name="Group 1712">
+          <g transform="matrix(1, 0, 0, 1, -101.92, -105.53)" filter="url(#Path_2143)">
+            <path id="Path_2143-2" data-name="Path 2143" d="M980.955,637.552c37.972-28.587-2.135-57.6-93.439-61.867-78.55-3.671-197.674-4.019-334.505-3.681v15.821c165.147-.169,290.953,1.336,338.773,10.9,23.465,4.692,29.619,16.914-57.175,46.932-21.017,7.27-65.745,22.036-127.38,42.158l136.488,11.2C911.6,674.181,959.873,653.422,980.955,637.552Z" transform="translate(955.77 -466.38)" fill="#f9c24d"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -101.92, -105.53)" filter="url(#Path_2144)">
+            <path id="Path_2144-2" data-name="Path 2144" d="M690.946,727.771c116.825-37.606,219.442-71.137,296.679-99.391l-136.488-11.2c-97,31.664-235.9,76.6-390.377,126.5L604.872,755.5C634.071,746.088,662.832,736.82,690.946,727.771Z" transform="translate(811.87 -395.74)" fill="#f9c95e"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -101.92, -105.53)" filter="url(#Path_2145)">
+            <path id="Path_2145-2" data-name="Path 2145" d="M3.45,572.731V589.9c166.43-.518,362.448-1.239,585.29-1.595V572.5C360.924,573.177,153.2,573.8,3.45,572.731Z" transform="translate(24.05 -466.35)" fill="#f8ba33"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -101.92, -105.53)" filter="url(#Path_2146)">
+            <path id="Path_2146-2" data-name="Path 2146" d="M203.01,573.046V588.04c148.942-.258,304.7-.346,455.677-.066V572.191C521.948,571.991,360.677,572.534,203.01,573.046Z" transform="translate(409.78 -466)" fill="#f7b421"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -101.92, -105.53)" filter="url(#Path_2147)">
+            <path id="Path_2147-2" data-name="Path 2147" d="M436.05,572.637c-17.825-.056-36.211-.1-55.04-.125v15.782q30.436.054,60.587.13c136.685.346,267.319-.545,379.73-.66V571.943C701.376,572.24,567.822,573.064,436.05,572.637Z" transform="translate(687.46 -466.32)" fill="#f7ae0f"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -101.92, -105.53)" filter="url(#Path_2148)">
+            <path id="Path_2148-2" data-name="Path 2148" d="M903.688,678.417,759.576,666.6C602.954,717.186,430.342,772.875,269.209,825l144.4,11.848C568.543,786.671,742.86,730.27,903.688,678.417Z" transform="translate(513.05 -318.66)" fill="#fad27a"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_1715" data-name="Group 1715" transform="translate(-19621 15435)">
+      <g id="Ellipse_104" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1716" data-name="Group 1716" transform="translate(-19150 15435)">
+      <g id="Ellipse_104-2" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-2" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1717" data-name="Group 1717" transform="translate(-18663 15436)">
+      <g id="Ellipse_104-3" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-3" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1718" data-name="Group 1718" transform="translate(-18154 15470)">
+      <g id="Ellipse_104-4" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-4" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1719" data-name="Group 1719" transform="translate(-18531 15624)">
+      <g id="Ellipse_104-5" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-5" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1720" data-name="Group 1720" transform="translate(-19082 15790.101)">
+      <g id="Ellipse_104-6" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-6" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1722" data-name="Group 1722" transform="translate(-18977.82 16100.101)">
+      <g id="Ellipse_104-7" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-7" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1723" data-name="Group 1723" transform="translate(-18323.82 16100.101)">
+      <g id="Ellipse_104-8" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-8" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <g id="Group_1721" data-name="Group 1721" transform="translate(-19671 16043.75)">
+      <g id="Ellipse_104-9" data-name="Ellipse 104" transform="translate(623 4217)" fill="none" stroke="#181208" stroke-width="11">
+        <circle cx="30" cy="30" r="30" stroke="none"/>
+        <circle cx="30" cy="30" r="24.5" fill="none"/>
+      </g>
+      <line id="Line_216-9" data-name="Line 216" y2="54" transform="translate(653.5 4275.5)" fill="none" stroke="#171209" stroke-width="11"/>
+    </g>
+    <text id="MILESTONE" transform="translate(-19048 19851)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-2" data-name="MILESTONE" transform="translate(-18577 19851)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-3" data-name="MILESTONE" transform="translate(-18238 19852)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-4" data-name="MILESTONE" transform="translate(-17581 19943)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-5" data-name="MILESTONE" transform="translate(-17939 20069)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-6" data-name="MILESTONE" transform="translate(-18497 20222)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-7" data-name="MILESTONE" transform="translate(-19098 20140)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-8" data-name="MILESTONE" transform="translate(-18399 20574)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="MILESTONE-9" data-name="MILESTONE" transform="translate(-17742 20574)" fill="#191207" font-size="40" font-family="Anton-Regular, Anton"><tspan x="0" y="0">MILESTONE</tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna." data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-19048 19864)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-2" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-18577 19864)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-3" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-18238 19865)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-4" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-17581 19956)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-5" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-17939 20082)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-6" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-18497 20235)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-7" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-19098 20153)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-8" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-18399 20587)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consetetur_sadipscing_elitr_sed_diam_nonumy_eirmod_tempor_invidunt_ut_labore_et_dolore_magna.-9" data-name="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna." transform="translate(-17742 20587)" fill="#707070" font-size="16" font-family="Montserrat-Regular, Montserrat"><tspan x="4.06" y="15">Lorem ipsum dolor </tspan><tspan x="0.588" y="34">sit amet, consetetur </tspan><tspan x="1.932" y="53">sadipscing elitr, sed </tspan><tspan x="23.668" y="72">diam nonumy </tspan></text>
+  </g>
+</svg>

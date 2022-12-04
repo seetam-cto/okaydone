@@ -1,0 +1,28 @@
+@use '../abstracts/' as *;
+
+.clientband{
+    background-color: $white;
+    box-shadow: 0px 0px 10px #33333310;
+    width: 70%;
+    .slick-slide{
+        opacity: 0.4;
+        transition: all 1s ease-in-out;
+        &.slick-active{
+            opacity: 1;
+        }
+    }
+    .slick-list{
+        overflow: visible;
+        background-color: $white;
+    }
+    .slick-track{
+        background-color: $white;
+    }
+    &-client{
+        padding-inline: 1rem;
+        &-box{
+            background-color: $lightBrown;
+            height: 14.4vh;
+        }
+    }
+}

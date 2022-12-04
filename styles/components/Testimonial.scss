@@ -1,0 +1,94 @@
+@use '../abstracts/' as *;
+
+.testimonial{
+    margin-block: 10vh 5vh;
+    padding-left: 5vw;
+    .slick-slide{
+        transition: all 1s ease-in-out;
+        transform: translateY(25vh);
+        &:not(.slick-current){
+            transition-delay: 0.3s;
+        }
+        &.slick-active{
+            transition: all 1s ease-in-out;
+            transform: translateY(0) translateX(0);
+            transition-delay: 0s;
+        }
+        &.slick-active + .slick-slide{
+            transition: all 1s ease-in-out;
+            transform: translateY(-25vh) ;
+        }
+    }
+    .slick-next, .slick-prev{
+        width: 50px;
+        height: 50px;
+        z-index: 5;
+        height: 70%;
+    }
+    .slick-next{
+        transform: rotate(180deg);
+        right: -5rem;
+        bottom: 2rem;
+    }
+    .slick-prev{
+        left: -5rem;
+        top: 5rem;
+    }
+    .slick-list{
+        overflow: visible;
+    }
+    &-slide{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        &-commentbox{
+            background-color: #F4B53F;
+            border-radius: 5rem;
+            padding: 3rem 5rem;
+            font-family: $montserrat;
+            font-size: 1.2rem;
+            color: $white;
+            position: relative;
+            &-point{
+                width: 6rem;
+                object-fit: contain;
+                position: absolute;
+                bottom: -8rem;
+                right: 12rem;
+            }
+        }
+        &-userbox{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            right: 0;
+            float: right;
+            margin-top: 3rem;
+            &-pic{
+                margin-bottom: 1rem;
+                filter: drop-shadow(0px 0px 10px #33333320);
+            }
+            h4{
+                font-family: $montserrat;
+                font-size: 0.8rem;
+                color: $secondary;
+            }
+        }
+    }
+    &-arrow{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        z-index: 5;
+        img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+        &-next{
+            transform: rotate(180deg);
+        }
+    }
+}

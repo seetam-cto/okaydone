@@ -1,0 +1,18 @@
+@forward './global';
+@forward './flex-grid';
+@forward './form';
+
+//pages
+@forward './pages/Home.scss';
+@forward './pages/About.scss';
+@forward './pages/Solutions.scss';
+
+//components
+@forward './components/Background.scss';
+@forward './components/Navbar.scss';
+@forward './components/HomeSLider.scss';
+@forward './components/ClientBand.scss';
+@forward './components/HomeMedia.scss';
+@forward './components/Testimonial.scss';
+@forward './components/PrizeSlider.scss';
+@forward './components/Footer.scss';

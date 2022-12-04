@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="12563" viewBox="0 0 1920 12563">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_64" data-name="Rectangle 64" width="1920" height="1449" transform="translate(0 2181)" fill="#1d1202" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-bg-wide">
+      <rect width="1920" height="12563"/>
+    </clipPath>
+  </defs>
+  <g id="bg-wide" clip-path="url(#clip-bg-wide)">
+    <rect width="1920" height="12563" fill="#fbf2d9"/>
+    <path id="Screenshot_2022-10-25_at_10.37.53_AM" data-name="Screenshot 2022-10-25 at 10.37.53 AM" d="M1598.4,66.305l42.1,3555.26H-713.035c5.151-3.6-184.831-1630.482,179.254-2070.947,194.272-235.028,751.918-231.2,1040.982-458.53s152.728-448,419.424-687.979S1632.494,54.176,1726.988-19.18Z" transform="translate(475.525 166.682)" fill="#1d1202"/>
+    <ellipse id="Screenshot_2022-10-25_at_10.46.43_AM" data-name="Screenshot 2022-10-25 at 10.46.43 AM" cx="2278" cy="1115.5" rx="2278" ry="1115.5" transform="translate(-1318 3121)" fill="#ffc64e"/>
+  </g>
+</svg>

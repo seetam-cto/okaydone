@@ -1,0 +1,139 @@
+@use '../abstracts/' as *;
+
+.footer{
+    width: 100vw;
+    height: auto;
+    background-image: url(../../assets/backgrounds/footerbg.svg);
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 5vh;
+    @include desktop{
+        background-position: 0% 0% !important;
+        padding-top: 5%;
+        margin-top: -10%;
+    }
+    &-explore{
+        padding-left: 20vw;
+        position: relative;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            width: 100%;
+            text-align: left;
+            font-size: 4rem;
+            line-height: 4rem;
+            font-weight: 400 !important;
+            color: $secondary;
+            z-index: 1;
+        }
+        a{
+            margin-top: 1rem;
+            display: block;
+            width: fit-content;
+            background-color: $secondary;
+            color: $white;
+            padding: 0.5rem 2rem;
+            border-radius: 2rem;
+            font-size: 1.3rem;
+            letter-spacing: 1px;
+            z-index: 1;
+        }
+        &-bulb{
+            width: 20vw;
+            height: 50vh;
+            left: 4vw;
+            top: -10vh;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    &-okaydone{
+        display: flex;
+        justify-content: flex-end;
+        &-content{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-logo{
+                width: 60%;
+            }
+            h1{
+                font-family: $montserrat;
+                font-size: 1rem;
+                font-weight: 400;
+                color: $accent;
+                text-align: justify;
+            }
+        }
+    }
+    &-links{
+        margin-top: 10vh;
+        h3{
+            font-family: $montserrat;
+            font-size: 1rem;
+            font-weight: 600;
+            color: $accent;
+            margin-bottom: 0.6rem;
+        }
+        ul{
+            list-style: none;
+            li{
+                font-family: $montserrat;
+                font-size: 1rem;
+                font-weight: 400;
+                color: $accent;
+                a{
+                    width: fit-content;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    &-newsletter{
+        padding-left: 2.1rem;
+        &-box{
+            border-radius: 30px;
+            overflow: hidden;
+            background-color: #ffffff20;
+            position: relative;
+            input{
+                border: none;
+                outline: none;
+                color: $accent;
+                background-color: transparent;
+                padding-left: 1rem;
+                height: 40px;
+                font-family: $montserrat;
+                width: 80%;
+            }
+            button{
+                height: 40px;
+                font-family: $montserrat;
+                border-radius: 30px;
+                align-self: flex-end;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: $accent;
+                color: $secondary;
+                font-family: $montserrat;
+                font-weight: 600;
+                padding-inline: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+    &-socials{
+        margin-top: 1rem;
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 0.6rem;
+        }
+    }
+}
