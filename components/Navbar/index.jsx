@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import logo from "../../assets/images/logo.svg"
+import backtop from "../../assets/images/back-to-top.png"
 import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useRouter } from 'next/router'
+import BackToTop from "react-back-to-top-button";
 
 const Navbar = () => {
   const router = useRouter()
@@ -59,6 +61,18 @@ const Navbar = () => {
             </motion.li>
           </motion.ul>
         </motion.div>
+        <BackToTop
+          showOnScrollUp={false}
+          showAt={120}
+          speed={1500}
+          easing="easeInOutSine"
+        >
+          <motion.img
+          initial={{scale: 1}}
+          whileHover={{scale: 1.1}}
+          transition={{type: "spring", bounce: 0.6}}
+          className='backtop' src={backtop.src} />
+        </BackToTop>
         </AnimatePresence>
     </header>
   )

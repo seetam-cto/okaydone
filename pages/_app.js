@@ -5,6 +5,7 @@ import '../styles/App.scss'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NextNProgress from 'nextjs-progressbar';
+import Overlay from "../components/Overlay";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps }) {
       <NextNProgress height={4} color="#FFAD00" />
       <Navbar />
       <Component {...pageProps} />
+      {/* <Overlay /> */}
     </>
   )
 }

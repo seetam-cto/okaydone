@@ -38,6 +38,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-content: space-between;
+        position: relative;
         &.error{
             height: 70vh;
         }
@@ -72,6 +73,12 @@
             line-height: 11rem;
             font-weight: 500;
             color: $secondary;
+        }
+        &-whitelogo{
+            width: 30vw;
+            object-fit: contain;
+            position: absolute;
+            filter: blur(10px);
         }
     }
     &-subtext{

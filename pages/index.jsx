@@ -6,6 +6,7 @@ import bulb from "../assets/images/bulb.svg"
 import yellowbg from "../assets/backgrounds/yellow-bg.svg"
 import yellowband from "../assets/backgrounds/yellow-band.svg"
 import testBg from "../assets/backgrounds/testimonial.svg"
+import whitelogo from "../assets/images/whitelogo.svg"
 import { motion, AnimatePresence } from 'framer-motion'
 import HomeServices from '../components/HomeServices'
 import CaseStudies from '../components/CaseStudy'
@@ -46,6 +47,13 @@ export default function Home() {
             THERE IS <br />
             NO BOX
           </motion.h2>
+          <motion.img
+          key="home-hero-whitelogo"
+          className="home-hero-whitelogo"
+          initial={{x: '100%', opacity: 0}}
+          whileInView={{x: '60vw', y: '60vh', opacity: 0.2}}
+          exit={{x: '100%', opacity: 0}}
+          src={whitelogo.src} alt="" />
         </section>
         <section className="home-subtext">
           <motion.h2>
