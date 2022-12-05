@@ -15,9 +15,9 @@
         opacity: 1;
         position: absolute;
         // filter:sepia(0.1);
-        @include desktop{
-            background-image: url(../../assets/backgrounds/bg-wide.svg);
-        }
+        // @include desktop{
+        //     background-image: url(../../assets/backgrounds/bg-wide.svg);
+        // }
         &-blur{
             width: 100vw;
             min-height: 100%;
