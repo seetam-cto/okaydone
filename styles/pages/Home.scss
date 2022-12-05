@@ -15,9 +15,9 @@
         opacity: 1;
         position: absolute;
         // filter:sepia(0.1);
-        // @include desktop{
-        //     background-image: url(../../assets/backgrounds/bg-wide.svg);
-        // }
+        @include desktop{
+            background-image: url(../../assets/backgrounds/bg-wide.svg);
+        }
         &-blur{
             width: 100vw;
             min-height: 100%;
@@ -95,6 +95,9 @@
     }
     &-latest{
         padding-top: 20%;
+        @include mac{
+            padding-top: 8%;
+        }
         &-title{
             width: 100%;
             text-align: right;
@@ -108,6 +111,9 @@
     &-about{
         padding-block: 12% 5vh;
         position: relative;
+        @include mac{
+            padding-top: 0%;
+        }
         &:hover &-bg{
             opacity: 0.1;
         }

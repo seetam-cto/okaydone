@@ -30,6 +30,12 @@
     }
 }
 
+@mixin mac {
+    @media only screen and (min-width: $desktop-width) and (min-height: 900px) {
+        @content;
+    }
+}
+
 @mixin keyframes($name){
     @keyframes #{$name}{
         @content;

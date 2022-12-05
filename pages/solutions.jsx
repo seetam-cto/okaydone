@@ -71,21 +71,18 @@ const Solutions = () => {
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '-20%', y: '-25%', scale: 1}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1.1, x: '-22%', y: '-27%'}}
                             transition={{ type: "spring", bounce: 0.6}}
                             className="solutions-content-image pic1" src={content1.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '0%', y: '30%', scale: 0.9}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1, x: '-2%', y: '32%'}}
                             transition={{type: "spring", delay: 0.3, bounce: 0.6}}
                             className="solutions-content-image pic2" src={content2.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '35%', y: '0%', scale: 0.8}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 0.9, x: '37%', y: '2%'}}
                             transition={{type: "spring", delay: 0.6, bounce: 0.6}}
                             className="solutions-content-image pic3" src={content3.src} />
                             <Link href="/">VIEW PORTFOLIO</Link>
@@ -123,21 +120,18 @@ const Solutions = () => {
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '-20%', y: '-25%', scale: 1}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1.1, x: '-22%', y: '-27%'}}
                             transition={{ type: "spring", bounce: 0.6}}
                             className="solutions-content-image pic1" src={prod1.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '0%', y: '30%', scale: 0.9}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1, x: '-2%', y: '32%'}}
                             transition={{type: "spring", delay: 0.3, bounce: 0.6}}
                             className="solutions-content-image pic2" src={prod3.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '35%', y: '0%', scale: 0.8}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 0.9, x: '37%', y: '2%'}}
                             transition={{type: "spring", delay: 0.6, bounce: 0.6}}
                             className="solutions-content-image pic3" src={prod2.src} />
                             <Link href="/">VIEW PORTFOLIO</Link>
@@ -151,21 +145,18 @@ const Solutions = () => {
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '-20%', y: '-25%', scale: 1}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1.1, x: '-22%', y: '-27%'}}
                             transition={{ type: "spring", bounce: 0.6}}
                             className="solutions-content-image pic1" src={inf1.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '0%', y: '30%', scale: 0.9}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1, x: '-2%', y: '32%'}}
                             transition={{type: "spring", delay: 0.3, bounce: 0.6}}
                             className="solutions-content-image pic2" src={inf3.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '35%', y: '0%', scale: 0.8}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 0.9, x: '37%', y: '2%'}}
                             transition={{type: "spring", delay: 0.6, bounce: 0.6}}
                             className="solutions-content-image pic3" src={inf2.src} />
                             <Link href="/">VIEW PORTFOLIO</Link>
@@ -202,21 +193,18 @@ const Solutions = () => {
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '-20%', y: '-25%', scale: 1}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1.1, x: '-22%', y: '-27%'}}
                             transition={{ type: "spring", bounce: 0.6}}
                             className="solutions-content-image pic1" src={web1.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '0%', y: '30%', scale: 0.9}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1, x: '-2%', y: '32%'}}
                             transition={{type: "spring", delay: 0.3, bounce: 0.6}}
                             className="solutions-content-image pic2" src={web3.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '35%', y: '0%', scale: 0.8}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 0.9, x: '37%', y: '2%'}}
                             transition={{type: "spring", delay: 0.6, bounce: 0.6}}
                             className="solutions-content-image pic3" src={web2.src} />
                             <Link href="/">VIEW PORTFOLIO</Link>
@@ -230,21 +218,18 @@ const Solutions = () => {
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '-20%', y: '-25%', scale: 1}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1.1, x: '-22%', y: '-27%'}}
                             transition={{ type: "spring", bounce: 0.6}}
                             className="solutions-content-image pic1" src={mark1.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '0%', y: '30%', scale: 0.9}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 1, x: '-2%', y: '32%'}}
                             transition={{type: "spring", delay: 0.3, bounce: 0.6}}
                             className="solutions-content-image pic2" src={mark3.src} />
                             <motion.img 
                             initial={{x: 0, y: 0, scale: 0}}
                             whileInView={{x: '35%', y: '0%', scale: 0.8}}
                             exit={{x: 0, y: 0, scale: 0}}
-                            whileHover={{scale: 0.9, x: '37%', y: '2%'}}
                             transition={{type: "spring", delay: 0.6, bounce: 0.6}}
                             className="solutions-content-image pic3" src={mark2.src} />
                             <Link href="/">VIEW PORTFOLIO</Link>
