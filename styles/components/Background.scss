@@ -1,22 +1,169 @@
 @use '../abstracts/' as *;
 
+$color1: #7CA082;
+$color2: #E1C3BF;
+$color3: #F0E6E6;
+$color4: #A96D39;
+
 .background{
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -2;
-    video{
+    z-index: -1;
+    opacity: 0.5;
+    &-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100vw;
-        object-fit: cover;
+        height: 100vh;
+        z-index: 1;
     }
-    // #gradient-canvas {
-    //     width:100%;
-    //     height:100%;
-    //     --gradient-color-1: #fbf2d9; 
-    //     --gradient-color-2: #7b9e81; 
-    //     --gradient-color-3: #9f5e28;  
-    //     --gradient-color-4: #e7cbc8;
-    //   }
+    &-container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    &-shape1{
+        width: 30vh;
+        height: 30vh;
+        background-color: $color1;
+        border-radius: 50%;
+        filter: blur(50px);
+        box-shadow: 0px 0px 40px $color1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include keyframes(shape1){
+            0%, 100%{transform: translate(0,0)}
+            25%{transform: translate(20vw, 80vh)}
+            40%{transform: translate(70vw, 60vh)}
+            52%{transform: translate(70vw, 10vh)}
+            65%{transform: translate(10vw, 50vh)}
+            75%{transform: translate(10vw, 90vh)}
+            80%{transform: translate(40vw, 30vh)}
+        }
+        @include animate(shape1, 30s, ease-in-out, infinite)
+    }
+    &-shape2{
+        width: 10vh;
+        height: 10vh;
+        background-color: $color2;
+        border-radius: 50%;
+        filter: blur(50px);
+        box-shadow: 0px 0px 40px $color2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include keyframes(shape2){
+            0%, 100%{transform: translate(100vw, 50vh)}
+            25%{transform: translate(30vw, 20vh)}
+            40%{transform: translate(10vw, 70vh)}
+            52%{transform: translate(60vw, 30vh)}
+            75%{transform: translate(0vw, 0vh)}
+            80%{transform: translate(40vw, 90vh)}
+        }
+        @include animate(shape2, 40s, ease-in-out, infinite)
+    }
+    &-shape3{
+        width: 20vh;
+        height: 20vh;
+        background-color: $color3;
+        border-radius: 50%;
+        filter: blur(50px);
+        box-shadow: 0px 0px 40px $color3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include keyframes(shape3){
+            0%, 100%{transform: translate(10vw, 70vh)}
+            40%{transform: translate(30vw, 20vh)}
+            50%{transform: translate(10vw, 70vh)}
+            25%{transform: translate(60vw, 30vh)}
+            80%{transform: translate(0vw, 0vh)}
+            65%{transform: translate(95vw, 90vh)}
+        }
+        @include animate(shape3, 35s, ease-in-out, infinite)
+    }
+    &-shape4{
+        width: 20vh;
+        height: 20vh;
+        background-color: $color4;
+        border-radius: 50%;
+        filter: blur(50px);
+        box-shadow: 0px 0px 40px $color4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include keyframes(shape4){
+            0%, 100%{transform: translate(70vw, 10vh)}
+            40%{transform: translate(30vw, 20vh)}
+            80%{transform: translate(90vw, 90vh)}
+            65%{transform: translate(60vw, 30vh)}
+            50%{transform: translate(10vw, 10vh)}
+            25%{transform: translate(40vw, 90vh)}
+        }
+        @include animate(shape4, 25s, ease-in-out, infinite)
+    }
+    &-shape5{
+        width: 8vh;
+        height: 8vh;
+        background-color: $color1;
+        border-radius: 50%;
+        filter: blur(50px);
+        box-shadow: 0px 0px 40px $color1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include keyframes(shape5){
+            0%, 100%{transform: translate(50vw,100vh)}
+            45%{transform: translate(20vw, 80vh)}
+            20%{transform: translate(70vw, 60vh)}
+            52%{transform: translate(70vw, 10vh)}
+            85%{transform: translate(10vw, 50vh)}
+            75%{transform: translate(10vw, 90vh)}
+            60%{transform: translate(40vw, 30vh)}
+        }
+        @include animate(shape5, 45s, ease-in-out, infinite)
+    }
+    &-shape6{
+        width: 40vh;
+        height: 40vh;
+        background-color: $color2;
+        border-radius: 50%;
+        filter: blur(50px);
+        box-shadow: 0px 0px 40px $color2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include keyframes(shape6){
+            0%, 100%{transform: translate(10vw, 50vh)}
+            25%{transform: translate(30vw, 20vh)}
+            40%{transform: translate(10vw, 76vh)}
+            52%{transform: translate(50vw, 30vh)}
+            75%{transform: translate(90vw, 90vh)}
+            80%{transform: translate(20vw, 90vh)}
+        }
+        @include animate(shape6, 27s, ease-in-out, infinite)
+    }
+    &-shape7{
+        width: 10vh;
+        height: 10vh;
+        background-color: $color3;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &-shape8{
+        width: 10vh;
+        height: 10vh;
+        background-color: $color4;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }

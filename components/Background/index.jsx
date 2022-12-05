@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
-// import gradient from '../../assets/extras/gradient'
 
 const Background = () => {
-    // useEffect(() => {
-    //     gradient.initGradient('#gradient-canvas')
-    // },[])
     return (
         <div className="background">
-            <video width="100%" height="100%" muted={true} autoPlay={true} loop={true}>
-                <source src="/bg.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-            {/* <canvas id="gradient-canvas" data-transition-in /> */}
+            <div className="background-container">
+                <div className="background-shape1"></div>
+                <div className="background-shape2"></div>
+                <div className="background-shape3"></div>
+                <div className="background-shape4"></div>
+                <div className="background-shape5"></div>
+                <div className="background-shape6"></div>
+                <div className="background-overlay"/>
+            </div>
         </div>
     )
 }

@@ -15,7 +15,11 @@ import Link from 'next/link'
 import HomeMedia from '../components/HomeMedia'
 import Testimonials from '../components/Testimonials'
 import Footer from '../components/Footer'
+import Lottie from "lottie-react";
+import boxlottie from "../assets/extras/9628-open-close-box.json"
+
 export default function Home() {
+
   return (
     <div className='home'>
       <Head>
@@ -47,13 +51,7 @@ export default function Home() {
             THERE IS <br />
             NO BOX
           </motion.h2>
-          <motion.img
-          key="home-hero-whitelogo"
-          className="home-hero-whitelogo"
-          initial={{x: '100%', opacity: 0}}
-          whileInView={{x: '60vw', y: '60vh', opacity: 0.2}}
-          exit={{x: '100%', opacity: 0}}
-          src={whitelogo.src} alt="" />
+          <Lottie className='home-hero-box' animationData={boxlottie} loop={true} />
         </section>
         <section className="home-subtext">
           <motion.h2>
